@@ -1,0 +1,13 @@
+# Virtual environments
+venv/
+lab1-env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Raw data (optionnel selon consigne prof)
+data/raw/
+
+# OS
+.DS_Store
