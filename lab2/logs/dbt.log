@@ -1,0 +1,43 @@
+[0m17:35:36.502857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3BD12F810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3B996A210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3BCDDE750>]}
+
+
+============================== 17:35:36.523408 | 8f339413-d22a-4435-9516-69c55bee68dc ==============================
+[0m17:35:36.523408 [info ] [MainThread]: Running with dbt=1.11.4
+[0m17:35:36.525958 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\pc\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init playstore_dbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:35:36.572152 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\pc\.dbt
+[0m17:35:36.577462 [debug] [MainThread]: Starter project path: C:\Users\pc\OneDrive\Bureau\Lab1\lab1-env\Lib\site-packages\dbt\include\starter_project
+[0m17:35:36.775498 [info ] [MainThread]: 
+Your new dbt project "playstore_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:35:36.780500 [info ] [MainThread]: Setting up your profile.
+[0m17:35:57.785627 [info ] [MainThread]: Profile playstore_dbt written to C:\Users\pc\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:35:57.787628 [debug] [MainThread]: Command `dbt init` succeeded at 17:35:57.787628 after 21.43 seconds
+[0m17:35:57.789092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3B6728E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3B646A810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3B646A850>]}
+[0m17:35:57.790615 [debug] [MainThread]: Flushing usage events
+[0m17:35:58.479381 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:37:18.245978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022411A00910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002241190AF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002241190AED0>]}
+
+
+============================== 17:37:18.252980 | c3ef1448-4482-46d0-90a2-85744d4fb575 ==============================
+[0m17:37:18.252980 [info ] [MainThread]: Running with dbt=1.11.4
+[0m17:37:18.255701 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\pc\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug --config-dir', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:37:18.310127 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\pc\.dbt
+[0m17:37:18.314698 [debug] [MainThread]: Command `dbt debug` succeeded at 17:37:18.314698 after 0.28 seconds
+[0m17:37:18.315868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002240B268E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022411C9C3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002240AFB9050>]}
+[0m17:37:18.317352 [debug] [MainThread]: Flushing usage events
+[0m17:37:18.953093 [debug] [MainThread]: An error was encountered while trying to flush usage events
